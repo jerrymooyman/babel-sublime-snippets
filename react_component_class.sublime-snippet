@@ -1,5 +1,6 @@
 <snippet>
     <content><![CDATA[
+'use strict'
 import React, { Component } from 'react';
 
 export class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}} extends Component {
