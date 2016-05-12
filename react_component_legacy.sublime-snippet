@@ -1,6 +1,5 @@
 <snippet>
     <content><![CDATA[
-'use strict'
 import React from 'react';
 
 export const ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}} = React.createClass({
